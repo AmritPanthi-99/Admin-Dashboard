@@ -1,0 +1,35 @@
+.img-itm{
+    width: 80px;
+    height: 80px;
+}
+
+.img-itm-doc{
+    width: 140px;
+}
+p {
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table td, #table th {
+    /* border-right: 1px solid #ddd; */
+    padding: 8px;
+  }
+  
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ADD8E6;
+    color: black;
+  }
