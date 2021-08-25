@@ -6,6 +6,10 @@
 .img-itm-doc{
     width: 140px;
 }
+
+.item-info{
+  width: 200px;
+}
 p {
     text-align: center;
 }
@@ -23,13 +27,50 @@ table{
   #table td, #table th {
     /* border-right: 1px solid #ddd; */
     padding: 8px;
+    text-align: center;
   }
-  
   
   #table th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: #ADD8E6;
     color: black;
+  }
+
+  .buttonGreen {
+    background-color: green; /* Green */
+    border: none;
+    margin: 10px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  .buttonRed {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  .buttonView {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
   }

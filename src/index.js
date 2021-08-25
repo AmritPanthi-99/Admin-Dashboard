@@ -15,11 +15,13 @@ import './assets/css/index.css'
 
 import Layout from './components/layout/Layout'
 
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 const store = createStore(
   rootReducer
 )
 
-document.title = 'Bhariya : Dashboard'
+document.title = 'Bhariya : Admin Panel'
 
 ReactDOM.render(
   <Provider store={store}>

@@ -5,6 +5,9 @@ import Users from '../pages/Users';
 import DocumentReview from '../pages/DocumentReview';
 import VehicleDetails from '../pages/VehicleDetails';
 import Driver from '../pages/Driver';
+import ViewDocuments from '../pages/ViewDocuments';
+import UpdateDriver from '../pages/UpdateDriver';
+
 
 const Routes = () => {
     return (
@@ -14,6 +17,8 @@ const Routes = () => {
             <Route path='/users' component={Users}/>
             <Route path='/vehicledetails' component={VehicleDetails}/>
             <Route path='/driverdetails' component={Driver}/>
+            <Route path='/viewdocuments/:Phonenumber' component={ViewDocuments}/>
+            <Route path='/updatedriver' component={UpdateDriver}/>
         </Switch>
     )
 }
